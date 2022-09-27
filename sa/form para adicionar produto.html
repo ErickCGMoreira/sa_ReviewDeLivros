@@ -1,0 +1,23 @@
+<form action="product.php" method="post" id="PForm">
+        <label for="isbn">ISBN: </label>
+        <input type="text" name="isbn" id="isbn" placeholder="Digite o ISBN do livro"/>
+        <label for="title">Título: </label>
+        <input type="text" name="title" id="title" placeholder="Digite o TÍTULO do livro"/>
+        <label for="author">Autor: </label>
+        <input type="text" name="author" id="author" placeholder="Digite o AUTOR do livro"/>
+        <label for="publisher">Editora: </label>
+        <input type="text" name="publisher" id="publisher" placeholder="Digite a EDITORA do livro"/>
+        <label for="pdate">Data de lançamento: </label>
+        <input type="date" name="pdate" id="pdate"/>
+        <label for="price">Preço médio: </label>
+        <input type="number" name="price" id="price" placeholder="Digite o PREÇO do livro"/>
+        <label for="genre">Generos: </label>
+        <input type="text" name="genre" id="genre" placeholder="Digite os GENEROS do livro separados por vírgulas"/>
+        <label for="tags">Tags: </label>
+        <input type="text" name="tags" id="tags" placeholder="Digite as TAGS do livro separadas por vírgulas"/>
+        <label for="synopsis">Sinopse: </label>
+        <input type="text" name="synopsis" id="synopsis" placeholder="Digite a SINOPSE do livro"/>
+        <label for="upload">Escolha uma imagem para representar o livro: </label>
+        <input type = "file" name = "upload" accept = "image/*" id="upload"/>
+        <input type="submit" value="submit" name="submit"/>
+    </form>
